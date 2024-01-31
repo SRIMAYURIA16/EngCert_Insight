@@ -1,0 +1,85 @@
+.register-bg {
+    width: 60vw;
+    height: 116vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .register-wrapper {
+    max-width: 420px;
+    width: 90%;
+    background: rgba(246, 249, 252, 0.5);
+    color: rgb(2, 52, 95);
+    box-shadow: 0 0 5px rgb(243, 249, 254);
+    border: 2px solid rgb(2, 52, 95);
+    border-radius: 10px;
+    backdrop-filter: blur(100px);
+    padding: 20px 10px;
+    text-align: center;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+  
+    height: 100vh; /* Adjust as needed */
+    overflow-y: auto;
+  }
+  
+  
+  .input-box {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(2, 52, 95);
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: aliceblue;
+    color: rgb(2, 52, 95);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: rgb(2, 52, 95);
+    color: aliceblue;
+  }
+  
+  .register-link {
+    margin-top: 20px;
+  }
+  
+  .register-link a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  

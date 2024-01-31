@@ -1,0 +1,131 @@
+/* usercour.css */
+
+.user-courses-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color:rgba(246, 249, 252, 0.5) ;
+}
+
+.ucour-toggle-buttons-container1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  
+}
+
+.ucour-toggle-button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: rgb(2,52,97);
+  color:aliceblue;
+}
+
+.ucour-toggle-button.active {
+  color: rgb(2,52,97);
+  background-color:aliceblue;
+}
+
+.course1-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  color: rgb(2,52,97);
+}
+
+.courses1-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.course1-item {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  background-color: rgb(2,52,97);
+  color:aliceblue;
+  transition: background-color 0.3s ease;
+}
+
+.course1-item:hover {
+  background-color:aliceblue;
+  color:rgb(2,52,97);
+}
+
+.completed-course {
+  background-color: #d4edda;
+}
+
+.stars-container {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .user-courses-container1 {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .ucour-toggle-buttons-container1 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .course1-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .courses1-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .course1-item {
+    width: calc(33.33% - 20px); /* Adjust as needed */
+    box-sizing: border-box;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+}
+
+.user-courses-container1 {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent; /* For Firefox */
+}
+
+/* Style for Webkit browsers like Chrome and Safari */
+.user-courses-container1::-webkit-scrollbar {
+  width: 6px; /* Adjust as needed */
+}
+
+.user-courses-container1::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.user-courses-container1::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Rest of your existing styles */
+.toggle-buttons-container1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+/* Rest of your existing styles */
