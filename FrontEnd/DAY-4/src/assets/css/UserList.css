@@ -1,0 +1,60 @@
+
+.user-list-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-list-heading {
+    color: #343a40;
+  }
+  
+  .user-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .user-list-th, .user-list-td {
+    padding: 12px;
+    border: 1px solid #dee2e6;
+    text-align: left;
+  }
+  
+  .user-list-th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .user-list-tbody tr:nth-child(even) {
+    background-color: #f1f1f1;
+  }
+  
+  .user-list-pagination-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .user-list-pagination {
+    list-style: none;
+    display: flex;
+  }
+  
+  .user-list-pagination li {
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-list-pagination li:hover {
+    background-color: #0056b3;
+  }
+  
