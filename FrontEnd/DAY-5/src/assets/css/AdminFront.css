@@ -1,0 +1,71 @@
+/* AdminFront.css */
+
+.adminfront-container {
+    /* max-width: 800px; */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(246, 249, 252, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: max-content;
+    max-height: 150vh;
+    height: 100vh;
+  }
+  
+  .adminfront-heading,
+  .adminfront-subheading,
+  .adminfront-metric-label,
+  .adminfront-metric-value,
+  .adminfront-paragraph {
+    color: #333;
+  }
+  
+  .adminfront-dashboard-overview {
+    margin-top: 20px;
+  }
+  
+  .adminfront-metrics-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .adminfront-metric-item {
+    flex: 1 1 calc(33.33% - 20px);
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .adminfront-user-management-section {
+    margin-top: 30px;
+  }
+  
+  .adminfront-paragraph {
+    color: #555;
+  }
+  
+  .adminfront-go-to-dashboard-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 600px) {
+    .adminfront-metric-item {
+      flex: 1 1 100%;
+    }
+  }
+  

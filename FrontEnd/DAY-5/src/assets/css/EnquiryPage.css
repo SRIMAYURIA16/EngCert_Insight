@@ -1,0 +1,95 @@
+.enquiry-container {
+    display: flex;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:rgb(2, 52, 97,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    height: 90vh;
+  }
+  
+  .toggle-buttons-enquiry {
+    display: flex;
+    margin-bottom: 20px;
+    width: 100vh;
+    
+  }
+  
+  .toggle-button-enquiry {
+    background-color:aliceblue;
+    color: rgb(2, 52, 97);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40vh;
+  }
+  
+  .toggle-button-enquiry:hover {
+    background-color: #0056b3;
+  }
+  
+  .toggle-button-enquiry.active {
+    background-color: #0056b3;
+  }
+  
+  .enquiry-section {
+    display: none;
+    width: calc(33.33% - 10px);
+    margin-right: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  .enquiry-section.active {
+    display: block;
+    width: 100%;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .enquiry-item {
+    margin-bottom: 20px;
+  }
+  
+  .enquiry-form {
+    margin-bottom: 20px;
+  }
+  
+  .enquiry-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .enquiry-select,
+  .enquiry-textarea,
+  .enquiry-text {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .enquiry-button {
+    color: rgb(2, 52, 97);
+    background-color: aliceblue;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .enquiry-button:hover {
+    background-color: #0056b3;
+  }
+  
