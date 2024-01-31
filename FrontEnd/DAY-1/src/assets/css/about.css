@@ -1,0 +1,67 @@
+
+.about-us-rectangular-box {
+    position: relative;
+    margin: 40px auto; 
+    width: 70vw; 
+    /* max-height: 300px;  */
+    height: 80vh;
+    background: rgba(246, 249, 252, 0.5); 
+    border-radius: 10px; 
+    overflow-y: scroll; 
+  }
+  
+  /* .about-us-content-inside-rectangular-box {
+    padding: 20px;
+    text-align: center;
+    color: rgb(2, 52, 95); 
+    z-index: 1;
+  } */
+  
+  .about-us-content-inside-rectangular-box {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    opacity: 0;
+    color: rgb(2, 52, 95); 
+    animation: fadeInAndScale 1s forwards;
+  }
+  
+  .about-us-section h2 {
+    margin-bottom: 10px;
+    opacity: 0;
+    animation: fadeInAndScale 1s forwards;
+  }
+  
+  .about-us-section h4 {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  
+  @keyframes fadeInAndScale {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .contact-info{
+    color:blue;
+    
+  }
+  .contact-info p{
+    color:blue;
+  }
