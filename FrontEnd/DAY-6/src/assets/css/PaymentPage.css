@@ -1,0 +1,90 @@
+
+.payment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .payment-content {
+    background-color:rgba(246, 249, 252, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .payment-title {
+    color: rgb(2,52,97);
+  }
+  
+  .total-cost {
+    color: rgb(2,52,97);
+    margin-bottom: 20px;
+  }
+  
+  .card-details {
+    margin-bottom: 15px;
+    color: rgb(2,52,97);
+  }
+  
+  .card-label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(2,52,97);
+  }
+  
+  .card-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .pay-button {
+    background-color: #024a61;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pay-button:hover {
+    background-color: #fff;
+    color: #024a61;
+  }
+
+.error-message {
+    color: #ff0000;
+    margin-top: 5px;
+  }
+  
+  .payment-content.success {
+    background-color: #42b983; /* Change background color for success */
+    color: #fff;
+    animation: successAnimation 1s ease-in-out;
+  }
+  
+  @keyframes successAnimation {
+    0% {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .success-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .card-input.error {
+    border: 1px solid #ff0000;
+  }
+  

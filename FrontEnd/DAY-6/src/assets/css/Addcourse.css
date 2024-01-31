@@ -1,0 +1,127 @@
+
+.addcourse-admin-page-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(2,52,97,0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow-y: scroll;
+  max-height: 100vh;
+  color: aliceblue;
+}
+
+.addcourse-admin-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.addcourse-admin-form-group {
+  margin-bottom: 20px;
+}
+
+.addcourse-admin-label {
+  font-weight: bold;
+}
+
+.addcourse-admin-textarea,
+.addcourse-admin-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.addcourse-admin-error-message {
+  color: red;
+}
+
+.addcourse-admin-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addcourse-admin-button:hover {
+  background-color: #0056b3;
+}
+
+/* Animation for success message */
+.addcourse-admin-success-message {
+  color: #28a745;
+  font-weight: bold;
+  animation: successAnimation 2s ease-out;
+}
+
+@keyframes successAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ViewCourse.css */
+
+.admin-view-course-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.admin-view-course-table th,
+.admin-view-course-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.admin-view-course-table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.admin-view-course-table td {
+  background-color: #f5f5f5;
+}
+
+.admin-view-course-table tr:hover td {
+  background-color: #e0f7fa;
+}
+
+.admin-view-course-table button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+.admin-view-course-table button:hover {
+  background-color: #218838;
+}
+
+.admin-view-course-table button.edit {
+  background-color: #007bff;
+}
+
+.admin-view-course-table button.edit:hover {
+  background-color: #0056b3;
+}
+
+.admin-view-course-table button.delete {
+  background-color: #dc3545;
+}
+
+.admin-view-course-table button.delete:hover {
+  background-color: #c82333;
+}
