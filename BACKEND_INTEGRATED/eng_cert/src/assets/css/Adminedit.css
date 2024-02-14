@@ -1,0 +1,41 @@
+
+.admin-edit-course-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.admin-edit-course-container h2 {
+  color: #333;
+}
+
+.admin-edit-course-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-edit-course-container label {
+  margin-bottom: 10px;
+}
+
+.admin-edit-course-container input {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.admin-edit-course-container .save-button {
+  background-color: rgb(2, 52, 97);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.admin-edit-course-container .save-button:hover {
+  background-color: #0056b3;
+}

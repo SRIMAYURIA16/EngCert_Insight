@@ -1,0 +1,55 @@
+
+.adminview-view-course-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow-y: scroll;
+    height: 60vh;
+  }
+  
+  .adminview-h2 {
+    color: #333;
+  }
+  
+  .adminview-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .adminview-thead {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .adminview-th,
+  .adminview-td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .adminview-td:last-child {
+    text-align: center;
+  }
+  
+  .adminview-button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    background-color: rgb(2, 52, 97);
+    color:rgb(2, 52, 97);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .add-course-button{
+    background-color: rgb(2, 52, 97);
+    color:aliceblue;
+  }
+  .adminview-button:hover {
+    background-color: #0056b3;
+  }
+  

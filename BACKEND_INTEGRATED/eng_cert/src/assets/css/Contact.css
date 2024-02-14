@@ -1,0 +1,43 @@
+/* Contact.css */
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact-header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .contact-section {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .contact-info,
+  .contact-form {
+    flex: 1;
+    min-width: 48%;
+    margin-bottom: 30px;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .contact-info,
+    .contact-form {
+      min-width: 100%;
+    }
+  }
+  

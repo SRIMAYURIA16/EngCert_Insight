@@ -1,0 +1,42 @@
+
+.adminabout-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    scrollbar-width: thin;
+    overflow-y: scroll;
+    height: 100vh;
+  }
+  
+  .adminabout-container h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .adminabout-editor {
+    min-height: 200px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100vh;
+  }
+  
+  .adminabout-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .adminabout-button:hover {
+    background-color: #0056b3;
+  }
+  
